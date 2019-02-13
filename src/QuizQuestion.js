@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class QuizQuestin extends Component {
+class QuizQuestion extends Component {
     render() {
         return (
             <main>
@@ -9,7 +9,7 @@ class QuizQuestin extends Component {
                 </section>
                 <section className="buttons">
                     <ul>
-                        <li>{this.props.quiz_questions.answer_options[0]}</li>
+                        <li>{this.props.quiz_question.answer_options[0]}</li>
                     </ul>
                 </section>
             </main>
@@ -17,4 +17,4 @@ class QuizQuestin extends Component {
     }
 }
 
-export default QuizQuestin
+export default QuizQuestion
